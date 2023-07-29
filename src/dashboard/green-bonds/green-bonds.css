@@ -1,0 +1,12 @@
+.green-loans .jumbotron {
+    margin: 0.6rem 0rem;
+    background-color: #e9ecef;
+    border-radius: 0.3rem;
+    padding: 0.6rem 2rem;
+    padding-bottom: 4rem !important;
+}
+.green-loans .jumbotron a.btn.btn-primary.btn-lg {
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+    margin-top: 2rem;
+}

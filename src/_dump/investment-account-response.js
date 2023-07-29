@@ -1,0 +1,202 @@
+const portfolio = {
+  "accounts": [
+    {
+      "accountId": "f13a293b-641e-1a52-e8ce-8525716afec9",
+      "accountNumber": "75553550",
+      "balance": 39026.509999999995,
+      "holdings": [
+        {
+          "stock": {
+            "name": "APPLE INC.",
+            "symbol": "AAPL",
+            "isin": "US0378331005",
+            "closingPrice": 148.3
+          },
+          "owned": 28.0
+        },
+        {
+          "stock": {
+            "name": "INTEL",
+            "symbol": "INTC",
+            "isin": "US4581401001",
+            "closingPrice": 56.77
+          },
+          "owned": 51.0
+        },
+        {
+          "stock": {
+            "name": "MARRIOTT INC.",
+            "symbol": "MAR",
+            "isin": "US5719032022",
+            "closingPrice": 138.34
+          },
+          "owned": 98.0
+        },
+        {
+          "stock": {
+            "name": "DISNEY",
+            "symbol": "DIS",
+            "isin": "US2546871060",
+            "closingPrice": 177.13
+          },
+          "owned": 104.0
+        }
+      ],
+      "transactions": [
+        {
+          "id": "e8ce8525-716a-fec9-8931-ccdf71b48f25",
+          "date": "2023-07-01",
+          "symbol": "INTC",
+          "quantity": 51.0,
+          "price": 56.06037500000001,
+          "type": "BUY"
+        },
+        {
+          "id": "7e800b95-a1fc-2982-3d54-966d7e3605ab",
+          "date": "2023-06-12",
+          "symbol": "TSLA",
+          "quantity": 53.0,
+          "price": 666.651375,
+          "type": "BUY"
+        },
+        {
+          "id": "979c0b1f-5abf-a8cd-2c3a-0ccb80afa55f",
+          "date": "2023-06-03",
+          "symbol": "NFLX",
+          "quantity": 3.0,
+          "price": 534.2375000000001,
+          "type": "BUY"
+        },
+        {
+          "id": "4d93dcb7-c0f7-d801-de01-adf488e7f199",
+          "date": "2023-05-30",
+          "symbol": "AMZN",
+          "quantity": 4.0,
+          "price": 666.651375,
+          "type": "SELL"
+        },
+        {
+          "id": "f7810210-0e6a-f860-4bfc-f1b72d57708d",
+          "date": "2023-05-07",
+          "symbol": "NFLX",
+          "quantity": 52.0,
+          "price": 534.2375000000001,
+          "type": "BUY"
+        },
+        {
+          "id": "b7df64fa-a697-7a90-dc51-c17ea325d9dd",
+          "date": "2023-05-01",
+          "symbol": "MAR",
+          "quantity": 103.0,
+          "price": 136.61075,
+          "type": "BUY"
+        },
+        {
+          "id": "c714063e-ec56-f846-a7ce-3f517b197036",
+          "date": "2023-04-24",
+          "symbol": "NFLX",
+          "quantity": 77.0,
+          "price": 534.2375000000001,
+          "type": "SELL"
+        },
+        {
+          "id": "6f872318-6b8d-9cad-3382-b724dd28d2a9",
+          "date": "2023-04-13",
+          "symbol": "TSLA",
+          "quantity": 26.0,
+          "price": 666.651375,
+          "type": "SELL"
+        },
+        {
+          "id": "8acfc987-d144-d363-592d-2a92589303e0",
+          "date": "2023-03-30",
+          "symbol": "NFLX",
+          "quantity": 51.0,
+          "price": 534.2375000000001,
+          "type": "SELL"
+        },
+        {
+          "id": "97f6eed0-28f9-b28e-fd48-a66a31c1a07a",
+          "date": "2023-03-27",
+          "symbol": "TSLA",
+          "quantity": 103.0,
+          "price": 666.651375,
+          "type": "SELL"
+        },
+        {
+          "id": "1b5e0b29-6a58-cc46-8d86-7900b1a0f31b",
+          "date": "2023-03-22",
+          "symbol": "MAR",
+          "quantity": 28.0,
+          "price": 136.61075,
+          "type": "SELL"
+        },
+        {
+          "id": "825ca18b-3485-0c7f-b561-f1f4cc75e35e",
+          "date": "2023-03-15",
+          "symbol": "MAR",
+          "quantity": 79.0,
+          "price": 136.61075,
+          "type": "BUY"
+        },
+        {
+          "id": "0e759a38-299d-4093-99a4-a2fa2354cb58",
+          "date": "2023-03-09",
+          "symbol": "TSLA",
+          "quantity": 105.0,
+          "price": 666.651375,
+          "type": "SELL"
+        },
+        {
+          "id": "617853e4-8d29-b273-57d6-a793a95a090e",
+          "date": "2023-03-03",
+          "symbol": "TSLA",
+          "quantity": 103.0,
+          "price": 666.651375,
+          "type": "BUY"
+        },
+        {
+          "id": "fd31ef4b-c4b1-de25-ae12-629255fdb8d3",
+          "date": "2023-02-21",
+          "symbol": "DIS",
+          "quantity": 104.0,
+          "price": 174.915875,
+          "type": "BUY"
+        },
+        {
+          "id": "80386e72-a301-da8e-5f15-fbf303ce9efe",
+          "date": "2023-02-08",
+          "symbol": "MAR",
+          "quantity": 4.0,
+          "price": 136.61075,
+          "type": "SELL"
+        },
+        {
+          "id": "291e0659-5f87-452b-2bb7-cb939dbcddc0",
+          "date": "2023-02-03",
+          "symbol": "NFLX",
+          "quantity": 3.0,
+          "price": 534.2375000000001,
+          "type": "BUY"
+        },
+        {
+          "id": "89a9b126-6fc8-f327-174e-035057707c4e",
+          "date": "2023-02-03",
+          "symbol": "AAPL",
+          "quantity": 28.0,
+          "price": 146.44625000000002,
+          "type": "BUY"
+        },
+        {
+          "id": "e839ca96-4303-7f3a-2648-aadb20a5c52c",
+          "date": "2023-01-30",
+          "symbol": "MAR",
+          "quantity": 52.0,
+          "price": 136.61075,
+          "type": "SELL"
+        }
+      ]
+    }
+  ]
+}
+export default portfolio;

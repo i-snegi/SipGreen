@@ -1,0 +1,47 @@
+.login-box {
+    margin: 0 auto;
+    width: 80%;
+    background: #FFFFFF;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex: 1 1 100%;
+    align-items: stretch;
+    justify-content: space-between;
+    box-shadow: 0 0 20px 6px #0000007a;
+    margin-top: 10rem;
+}
+.left-box {
+    color: #FFFFFF;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://i.pinimg.com/736x/5d/73/ea/5d73eaa…--tumblr-backgrounds-iphone-phone-wallpapers-iphone-wallaper-tumblr.jpg);
+    overflow: hidden;
+    background: var(--primary-color);
+    padding: 8rem;
+}
+.card-container {
+    margin-top: 4rem;
+}
+
+.right-box {
+    padding: 40px;
+    overflow: hidden;
+}
+
+.login-button {
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+    padding: 0.6rem 2rem;
+    margin-top: 2rem;
+}
+.login-button:hover {
+    background-color: #00575e;
+    border-color: #00575e;
+}
+.brand-logo {
+    margin-bottom: 2rem;
+}
+.i-text {
+    margin-top: 4rem;
+}
